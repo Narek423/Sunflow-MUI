@@ -1,0 +1,18 @@
+.title_to_status_electrical_switcher {
+  @apply mt-12 flex;
+
+  .text_fieldes_container {
+    @apply flex w-[89%] gap-6;
+
+    .text_fieldes {
+      @apply w-full;
+    }
+  }
+  .switcher {
+    @apply ml-[2.5%] flex w-[9%] justify-start pt-[2px];
+
+    .text {
+      @apply mb-[4px] ml-1 flex items-center font-[Roboto] text-[13px] font-normal leading-4;
+    }
+  }
+}

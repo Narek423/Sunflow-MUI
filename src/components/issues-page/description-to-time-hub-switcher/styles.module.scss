@@ -1,0 +1,30 @@
+.description_to_time_hub_switcher {
+  @apply mt-4 flex;
+
+  .text_fieldes_container {
+    @apply flex w-[89%] gap-6;
+
+    .text_fielde_description {
+      @apply w-[62.7%];
+    }
+
+    .text_fielde_repair_date,
+    .text_fielde_time_estimate_hours {
+      @apply w-[30%];
+
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+        @apply absolute bottom-[13px] right-[12px] top-[13px] pr-[12px] opacity-80;
+        -webkit-appearance: none;
+        background: #fff url("/assets/arrow.png") no-repeat center center;
+      }
+    }
+  }
+  .switcher {
+    @apply ml-[2.5%] flex w-[9%] justify-start  pt-[2px];
+
+    .text {
+      @apply ml-1 mt-[10px] flex font-[Roboto] text-[13px] font-normal leading-4;
+    }
+  }
+}

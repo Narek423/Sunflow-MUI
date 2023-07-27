@@ -1,0 +1,35 @@
+.main_container {
+  @apply flex min-h-screen min-w-full bg-[#FAFBFA] bg-[length:70%] bg-right-bottom bg-no-repeat;
+  background-image: url("/assets/sun-powered-car.svg");
+
+  .login_logo_main_container {
+    @apply w-[30%];
+
+    .login_logo_wrapper {
+      @apply relative ml-auto flex w-[267px] flex-col items-center;
+
+      .logo {
+        @apply my-20;
+      }
+
+      .title {
+        @apply font-[Helvetica] text-lg font-normal leading-5;
+      }
+
+      .error {
+        @apply -mb-6 mt-3 font-serif font-medium text-red-500;
+      }
+
+      .checkboxe_wrapper {
+        @apply mr-[7.6rem] mt-4 flex;
+
+        .checkboxe_text {
+          @apply left-4  flex items-center font-[Helvetica] text-[13px] font-normal;
+        }
+      }
+      .button {
+        @apply mt-5 h-[43px] w-[270px] rounded-3xl font-[Helvetica] text-lg font-bold leading-5;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.main_container {
+  @apply min-h-screen min-w-full bg-[#f7f8fa];
+
+  .top_bar {
+    @apply h-16 bg-white;
+  }
+
+  .manu_router_container {
+    @apply flex bg-[#f7f8fa];
+
+    .router_container {
+      @apply grow p-6;
+    }
+  }
+}

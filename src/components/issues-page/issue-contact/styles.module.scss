@@ -1,0 +1,23 @@
+.issue_contact_container {
+  @apply mt-4 flex;
+
+  .text_fieldes_container {
+    @apply flex w-[90%] gap-6;
+
+    .text_fielde_select_role,
+    .text_fielde_select_user {
+      @apply w-full;
+    }
+  }
+  .button_wrapper {
+    @apply ml-[2.8%] flex w-[9%] justify-start pt-[2px];
+
+    .button_contained {
+      @apply h-[35px] w-full rounded-3xl font-[Helvetica] text-[13px] font-bold normal-case leading-4;
+    }
+  }
+}
+
+.grid_wrapper {
+  @apply mt-8;
+}

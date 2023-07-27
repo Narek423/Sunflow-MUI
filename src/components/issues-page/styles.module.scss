@@ -1,0 +1,37 @@
+.main_container {
+  @apply relative max-h-[83vh] min-w-full overflow-y-auto px-5;
+
+  .login_save_buttons_container {
+    @apply mt-4 flex justify-end gap-5;
+
+    .button_contained,
+    .button_outlined {
+      @apply h-[35px] rounded-3xl font-[Helvetica] text-[13px] font-bold normal-case leading-4;
+    }
+  }
+
+  .card_container {
+    @apply mt-10;
+
+    .card_content {
+      @apply px-12;
+
+      .create_issue_container {
+        @apply flex flex-col gap-1;
+
+        .create_issue_title,
+        .issue_contact_title {
+          @apply font-[Roboto] text-lg font-medium leading-5 text-[#e9513e];
+        }
+
+        .issue_contact_title {
+          @apply mb-2 mt-8;
+        }
+
+        .date {
+          @apply font-[Roboto] text-sm font-normal leading-4 text-[#898787];
+        }
+      }
+    }
+  }
+}

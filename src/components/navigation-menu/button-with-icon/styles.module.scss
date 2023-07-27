@@ -1,0 +1,15 @@
+:hover.menu_button {
+  background: linear-gradient(to top, #ef843933, #e7463f33);
+}
+.menu_button,
+.menu_button_clicked {
+  @apply min-h-['48px'] text-black;
+}
+
+.menu_button_clicked {
+  background: linear-gradient(to bottom, #e7463f, #ef8439);
+}
+
+.theme_switch_wrapper {
+  @apply mb-3 ml-[66px] h-[50px] w-fit;
+}

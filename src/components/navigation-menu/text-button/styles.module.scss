@@ -1,0 +1,10 @@
+:hover.menu_button {
+  background: linear-gradient(to top, #ef843933, #e7463f33);
+}
+.menu_button {
+  @apply text-black;
+}
+
+.menu_button_clicked {
+  background: linear-gradient(to bottom, #e7463f, #ef8439);
+}
